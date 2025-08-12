@@ -1,0 +1,62 @@
+/*
+Matrices Unidimensionales (Arrays simples)
+
+1. Definición
+Una matriz unidimensional es una estructura que almacena una secuencia lineal de elementos del mismo tipo. Piensa en una fila de casillas numeradas, donde puedes guardar datos y acceder a ellos por su posición.
+
+2. Ejemplos y casos de uso
+-Guardar listas simples, como notas de estudiantes, temperaturas diarias o edades.
+-Almacenar secuencias de datos para procesar o analizar.
+-Recorrer elementos para calcular sumas, máximos, mínimos, etc.
+
+3. Estructura
+
+tipoDeDato[] nombreArray = new tipoDeDato[tamaño];
+
+Ejemplo 1:
+
+Arreglo para 5 enteros
+
+int[] numeros = new int[5];
+
+Ejemplo 2:
+
+También se puede inicializar con valores:
+
+int[] numeros = {10, 20, 30, 40, 50};
+
+
+4. Ejemplo explicado
+
+int[] numeros = {5, 10, 15, 20, 25};
+
+for (int i = 0; i < numeros.length; i++) {
+    System.out.println("Elemento en índice " + i + ": " + numeros[i]);
+}
+
+
+5. Ejercicio práctico
+
+-Declare un arreglo de 5 enteros.
+-Asigne los valores 1, 2, 3, 4 y 5 a cada posición.
+-Recorra el arreglo con un for y calcule la suma de sus elementos.
+-Imprima el resultado final.
+
+*/
+
+public class Matrices_Unidimencionales_1{
+  public static void main(String[] args) {
+
+    int[] numbers = {1, 2, 3, 4, 5};
+    int sum = 0;
+
+    for (int i = 0; i < numbers.length; i++){
+      sum += numbers[i];
+    }
+    System.out.println("Suma de numeros: " + sum);
+  }
+}
+
+
+
+
