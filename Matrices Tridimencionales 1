@@ -7,29 +7,53 @@ Mientras que una matriz bidimensional se asemeja a una tabla (filas y columnas),
 tercera dimensión, como si fueran varias tablas apiladas.
 
 2. Ejemplos y casos de uso
--Tablas de datos, como hojas de cálculo.
--Mapas o tableros en videojuegos.
--Representación de imágenes, matrices matemáticas, o estructuras espaciales.
-
+-Juegos 3D (mapas, coordenadas X-Y-Z).
+-Almacenamiento de imágenes con capas (por ejemplo, RGB).
+-Simulaciones físicas o científicas con volumen.
 
 3. Estructura
 
-tipoDeDato[][] nombreMatriz = new tipoDeDato[filas][columnas];
+tipo[][][] nombre = {
+    { {val1, val2}, {val3, val4} },
+    { {val5, val6}, {val7, val8} }
+};
 
 Ejemplo 1:
 
- 3 filas y 4 columnas
+public class Practica3D {
+    public static void main(String[] args) {
+        int[][][] cubo = {
+            {   // Capa 0
+                {1, 2},
+                {3, 4}
+            },
+            {   // Capa 1
+                {5, 6},
+                {7, 8}
+            }
+        };
 
-int[][] matriz = new int[3][4];
+        for (int capa = 0; capa < cubo.length; capa++) {
+            System.out.println("Capa " + capa + ":");
+            for (int fila = 0; fila < cubo[capa].length; fila++) {
+                for (int columna = 0; columna < cubo[capa][fila].length; columna++) {
+                    System.out.print(cubo[capa][fila][columna] + "\t");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+    }
+}
+
 
 
 Ejemplo 2:
 
-int[][] matriz = {
-  {1, 2, 3, 4},
-  {5, 6, 7, 8},
-  {9, 10, 11, 12}
-};
+    int[][][] cube = {
+      { {1, 2}, {3, 4} }, 
+      { {5, 6}, {7, 8} }
+    };
 
 
 4. Ejemplo explicado
