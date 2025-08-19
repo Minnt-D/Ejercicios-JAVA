@@ -84,6 +84,7 @@ public class practicas{
     }
 }
 
+/*
 //OUT: 
 Bloque1:
 1 
@@ -100,3 +101,22 @@ Bloque2:
 7 
 8 
 
+
+//Consejito sobre los for
+
+Cuando tengas que anidar bucles para recorrer estructuras multidimensionales:
+Cada dimensión corresponde a un bucle.
+El más externo recorre la dimensión más “grande” (bloques), el del medio filas, el interno columnas.
+
+Como regla, piensa:
+
+1D → un for
+2D → dos for
+3D → tres for
+
+Es como ir abriendo cajas:
+
+-La primera caja tiene varias cajas adentro (bloques).
+-Dentro de cada caja hay otras más pequeñas (filas).
+-Dentro de esas hay los objetos finales (columnas).
+*/
