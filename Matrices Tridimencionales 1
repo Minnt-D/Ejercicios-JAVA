@@ -75,7 +75,7 @@ public class practicas{
             System.out.println("Bloque" + (x+1) + ":");
             for (int y = 0; y < 2; y++) {
                 for (int z = 0; z < 2; z++) {
-                    System.out.println(numbers[x][y][z] + " ");
+                    System.out.print(numbers[x][y][z] + " ");
                 }
                 System.out.println();
             }
