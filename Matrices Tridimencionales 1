@@ -48,35 +48,11 @@ public class Practica3D {
 
 
 
-Ejemplo 2:
+4. Ejercicio práctico
 
-    int[][][] cube = {
-      { {1, 2}, {3, 4} }, 
-      { {5, 6}, {7, 8} }
-    };
-
-
-4. Ejemplo explicado
-
-int[][] matriz = {
-  {1, 2, 3},
-  {4, 5, 6},
-  {7, 8, 9}
-};
-
-for (int fila = 0; fila < matriz.length; fila++) {
-  for (int col = 0; col < matriz[fila].length; col++) {
-    System.out.print(matriz[fila][col] + " ");
-  }
-  System.out.println();
-}
-
-
-5. Ejercicio práctico
-
--Declare una matriz 3x3 de enteros.
--Asigne valores del 1 al 9 a la matriz en orden (fila por fila).
--Recorra la matriz para imprimir todos sus valores en formato tabular (3 filas, 3 columnas).
+-Declare una matriz tridimensional de tamaño [2][2][2].
+-Llénala con los números del 1 al 8.
+-Imprime todos los elementos, organizados en bloques, como en el ejemplo.
 
 */
 
