@@ -18,7 +18,7 @@ tipo[][][] nombre = {
     { {val5, val6}, {val7, val8} }
 };
 
-Ejemplo 1:
+Ejemplo de uso:
 
 public class Practica3D {
     public static void main(String[] args) {
@@ -45,7 +45,6 @@ public class Practica3D {
         }
     }
 }
-
 
 
 4. Ejercicio práctico
@@ -87,20 +86,14 @@ public class practicas{
 /*
 //OUT: 
 Bloque1:
-1 
-2 
+1 2 
 
-3 
-4 
-
+3 4 
 
 Bloque2:
-5 
-6 
+5 6 
 
-7 
-8 
-
+7 8 
 
 //Consejito sobre los for
 
