@@ -6,10 +6,12 @@ Una matriz tridimensional en Java es como un cubo de datos (o incluso un conjunt
 Mientras que una matriz bidimensional se asemeja a una tabla (filas y columnas), una tridimensional agrega una 
 tercera dimensión, como si fueran varias tablas apiladas.
 
+
 2. Ejemplos y casos de uso
 -Juegos 3D (mapas, coordenadas X-Y-Z).
 -Almacenamiento de imágenes con capas (por ejemplo, RGB).
 -Simulaciones físicas o científicas con volumen.
+
 
 3. Estructura
 
